@@ -1,0 +1,92 @@
+/*all*/
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexaround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colorblue{
+    color: #0065FC;
+}
+.colorblack{
+    color: black;
+}
+.colorgrey{
+    color: #f2f2f2;
+}
+.backblue{
+    background-color: #0065FC;
+}
+.backgrey{
+    background-color: #f2f2f2;
+}
+.textbold{
+    font-weight: bold;
+}
+.bordurenone{
+    border: none;
+}
+/*nav*/
+.navbar{
+    height: 100px;
+}
+.sizenav{
+    width: 45%;
+}
+.decorationNone{
+    text-decoration: none;
+}
+.sizelien{
+    width: 140px;
+    height: 99px;
+}
+
+.bordurenav{
+    border-top: 3px solid blue ;
+}
+.bordurenavnone{
+    border-top: 3px solid transparent;
+}
+/*HEADER*/
+
+.borduresearch{
+    width: 400px;
+    border-radius: 20px;
+    border: .5px solid #f2f2f2
+}
+.paddingsearch{
+    padding: 20px;
+}
+.search{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconsize{
+    height:50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+.button{
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}

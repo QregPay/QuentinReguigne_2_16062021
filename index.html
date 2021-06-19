@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Reservia</title>
@@ -18,34 +18,70 @@
                 <a href="index.html" alt="logo">
                <img src="./img/Reservia@3x.png" alt="logo" width="120px" height="50px">
                 </a>
-                <div class="sizenav flexaround">
-                    <div class="sizelien flexcenter bordurenav">
+                <div class="sizenav ">
+                    <div class="sizelien bordurenav">
                         <a class="colorblue decorationNone" href="#">Hébergements</a>
                     </div>
-                    <div class="sizelien flexcenter bordurenavnone ">
+                    <div class="sizelien bordurenavnone ">
                         <a class="colorblack decorationNone" href="#">Activités</a>
                     </div>
-                    <div class="sizelien flexcenter bordurenavnone">
+                    <div class="sizelien textbold bordurenavnone">
                         <a class="colorblue decorationNone" href="#">S'inscrire</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <section>
-        <div>
-            <h1 class="textbold">Trouvez votre hébergement pour des vacances de rêves</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-        </div>
-        <div class="borduresearch flexcenter ">
-            <div class="backgrey flexcenter iconsize">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>
+    <main>
+        <section>
             <div>
-                <input class="search flexcenter bordurenone paddingsearch" type="search" value="Marseille, France"/>
+                <h1 class="textbold">Trouvez votre hébergement pour des vacances de rêves</h1>
+                <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <div class="backblue flexcenter button">Rechercher</div>
+            <div class="borduresearch ">
+                <div class="backgrey iconsize">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <input class="search bordurenone paddingsearch" type="search" value="Marseille, France"/>
+                </div>
+                <div class="backblue button">Rechercher</div>
+            </div>
+            <div class="filters">
+                <h3 class="title-h2">Filtres</h3>
+                <ul class="filters-ul">
+                    <li class="filters-button"><i class="fas fa-money-bill-wave icon-filter"></i>Économique</li>
+                    <li class="filters-button"><i class="fas fa-child icon-filter"></i>Familial</li>
+                    <li class="filters-button"><i class="fas fa-heart icon-filter"></i>Romantique</li>
+                    <li class="filters-button"><i class="fas fa-dog icon-filter"></i>Animaux autorisés</li>
+                </ul>
+            </div>
+            <div class="info">
+                <i class="fas fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer backgrey">
+        <div class="footer-blocs">
+            <div class="footer-bloc">
+                <h3 class="textbold">À propos</h3>
+                <p>Fonctionnement du site</p>
+                <p>Consitions générales de vente</p>
+                <p>Données et confidentialité</p>
+           </div>
+           <div class="footer-bloc">
+                <h3 class="textbold">Nos hébérgements</h3>
+                <p>Charte qualité</p>
+                <p>Soumettre votre hôtel</p>
+        
+            </div>
+            <div class="footer-bloc footer-bloc-assistance">
+                <h3 class="textbold">Assistance</h3>
+                <p>Centre d'aide</p>
+                <p>Nous contacter</p>
+            </div>
         </div>
-    </section>
+    </footer>
 </body>
 </html>

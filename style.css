@@ -34,7 +34,7 @@ body{
     background-color: #f2f2f2;
 }
 .textbold{
-    font-weight: bolder;
+    font-weight: bold;
 }
 .bordurenone{
     border: none;
@@ -156,6 +156,42 @@ body{
   .filters ul li:hover .icon-filter {
     background: white;
   }
+/*SECTION HEBERGEMENTS*/
+.bloc{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
+.bloc-hebergement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.title-h2{
+    width: 100%;
+    margin: 40px;
+}
+.marseille-hotel{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    border-radius: 20px;
+    border: 10px transparent;
+    box-shadow: 1px black;
+}
+.marseille-hotel img{
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.bloc-populaire{
+
+}
 /*FOOTER*/
 .footer {
     width: 100%;

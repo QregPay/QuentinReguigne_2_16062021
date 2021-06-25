@@ -51,6 +51,7 @@ body{
 }
 .decorationNone{
     text-decoration: none;
+    color: black;
 }
 .sizelien{
     display: flex;
@@ -187,15 +188,20 @@ body{
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
+.stars{
+    display: flex;
+}
+/*POPULAIRE*/
 .bloc-populaire{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
-.populaires .poplaire-icone{
+.populaire-icone{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin: auto;
 }
 .populaire#chambre1{
@@ -260,7 +266,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 23%;
     height: 600px;
 }
 .activites-cartes{
@@ -269,8 +275,30 @@ body{
     flex-direction: column;
     align-items: center;
     width: 23%;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
+}
+.activites-cartes-petit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+}
+#small{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+#xsmall{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
 }
 .activites-cartes img{
     object-fit: cover;

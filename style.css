@@ -158,6 +158,10 @@ body{
     background: white;
   }
 /*SECTION HEBERGEMENTS*/
+.section-hebergements{
+    display: flex;
+    justify-content: space-between;
+}
 .bloc{
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -166,12 +170,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0 20px;
+    width: 66%;
 }
 .title-h2{
     width: 100%;
     margin: 40px;
+}
+.marseille-hotels{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 .marseille-hotel{
     background-color: white;
@@ -191,12 +201,15 @@ body{
 .stars{
     display: flex;
 }
+.lien-h{
+    width: 30%;
+}
 /*POPULAIRE*/
 .bloc-populaire{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 30%;
 }
 .populaire-icone{
     display: flex;
@@ -250,6 +263,9 @@ body{
     margin: 0;
 }
 /*ACTIVITES*/
+.lien-a{
+    width: 100%;
+}
 .activites{
     margin-top: 50px;
     margin-bottom: 50px;

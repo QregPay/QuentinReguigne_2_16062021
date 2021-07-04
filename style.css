@@ -185,7 +185,7 @@ body{
 .marseille-hotels{
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .marseille-hotel{
     background-color: white;
@@ -207,6 +207,7 @@ body{
 }
 .lien-h{
     width: 30%;
+    margin-bottom: 20px;
 }
 .hebergement-para{
     width: 100%;
@@ -217,11 +218,20 @@ body{
     justify-content: center;
     width: 30%;
 }
+.populaires{
+    display: flex;
+    flex-direction: column;
+}
+.populaire{
+    display: flex;
+}
 .populaire-icone{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+}
+.lien-pop{
+    margin-bottom: 20px;
 }
 .populaire#chambre1{
     display: flex;

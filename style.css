@@ -194,6 +194,7 @@ body{
     justify-content: left;
     align-items: start;
     border-radius: 20px;
+    padding: 7px;
 }
 .marseille-hotel img{
     width: 100%;
@@ -221,6 +222,7 @@ body{
 .populaires{
     display: flex;
     flex-direction: column;
+    padding: 0 40px 0 40px;
 }
 .populaire{
     display: flex;
@@ -231,7 +233,7 @@ body{
     align-items: center;
 }
 .lien-pop{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .populaire#chambre1{
     display: flex;
@@ -239,6 +241,7 @@ body{
     background-color: white;
     border-radius: 20px;
     padding: 7px 0 7px 7px;
+    height: 140px;
 }
 .populaire#chambre2{
     display: flex;
@@ -246,6 +249,7 @@ body{
     background-color: white;
     border-radius: 20px;
     padding: 7px 0 7px 7px;
+    height: 140px;
 }
 .populaire#chambre3{
     display: flex;
@@ -253,24 +257,27 @@ body{
     background-color: white;
     border-radius: 20px;
     padding: 7px 0 7px 7px;
+    height: 140px;
 }
 .populaire-img{
     display: flex;
     align-items: center;
     padding: 0;
+    width: 35%;
 }
 .populaire-img img{
     width: 100%;
     height: 100%;
-    max-height: 110px;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
+
 }
 .populaire .populaire-txt{
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 65%;
 }
 .populaire-txt .nom-hotel{
     margin: 0;

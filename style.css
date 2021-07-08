@@ -393,3 +393,27 @@ body{
   .footer-bloc-assistance {
     margin-right: 20%;
   }
+
+  /*MEDIA QUERIES*/
+
+  /*tablets device*/
+  @media (max-width: 991.98px){
+      .section-hebergements{
+          display: flex;
+          flex-direction: column;
+      }
+      .bloc-hebergement{
+          width: 100%;
+          order: 2;
+      }
+      .bloc-populaire{
+          width: 100%;
+          order: 1;
+      }
+
+  }
+
+  /*phones devices*/
+  @media (max-width: 575.98px){
+
+  }

@@ -176,8 +176,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 40px;
     width: 66%;
+    box-sizing: border-box;
 }
 .title-h2{
     width: 100%;
@@ -185,14 +186,13 @@ body{
 .marseille-hotels{
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .marseille-hotel{
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: start;
     border-radius: 20px;
     padding: 7px;
 }
@@ -409,11 +409,36 @@ body{
       .bloc-populaire{
           width: 100%;
           order: 1;
+          margin-bottom: 20px;
+      }
+      .lien-h{
+          width: 44%;
       }
 
   }
 
   /*phones devices*/
   @media (max-width: 575.98px){
-
+      .bloc{
+          border-radius: 0;
+      }
+      .bloc-hebergement{
+          background-color: white;
+          padding: 0 10px 0 10px;
+      }
+      .populaires{
+          padding: 0 10px 0 10px;
+      }
+      .lien-pop{
+          width: 100%;
+      }
+      .lien-h{
+          width: 100%;
+      }
+      .marseille-hotel{
+          border: 3px solid #F2F2F2;
+      }
+      .footer-blocs{
+          flex-direction: column;
+      }
   }

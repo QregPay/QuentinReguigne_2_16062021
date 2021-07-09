@@ -414,6 +414,27 @@ body{
       .lien-h{
           width: 44%;
       }
+      .activites{
+          box-sizing: border-box;
+          padding: 0 40px 0 40px;
+      }
+      .bloc-activites{
+          display: flex;
+          flex-wrap: wrap;
+          height: auto;
+      }
+      .activites-cartes{
+          width: 44%;
+      }
+      .bloc-activites-petit{
+          width: 44%;
+      }
+      .activites-cartes{
+          margin-bottom: 20px;
+      }
+      .bloc-activites-petit{
+          margin-bottom: 20px;
+      }
 
   }
 

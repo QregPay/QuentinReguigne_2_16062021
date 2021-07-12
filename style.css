@@ -442,6 +442,15 @@ body{
       .bloc{
           border-radius: 0;
       }
+      .borduresearch{
+          margin-bottom: 20px;
+      }
+      .links{
+          padding: 0 3px;
+      }
+      .filters ul li{
+          margin-left: 7px;
+      }
       .bloc-hebergement{
           background-color: white;
           padding: 0 10px 0 10px;

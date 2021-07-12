@@ -439,6 +439,36 @@ body{
 
   /*phones devices*/
   @media (max-width: 575.98px){
+      .navbar{
+          height: auto;
+      }
+      .flexbetween{
+          justify-content: center;
+          box-sizing: border-box;
+          flex-wrap: wrap;
+      }
+      .logo{
+          width: 50%;
+          order: 1;
+          display: flex;
+          justify-content: space-around;
+      }
+      .bordurenav{
+          border-top: none;
+          border-bottom: 3px solid #0065FC;
+          order: 3;
+      }
+      .sizelien{
+          width: 50%;
+          height: 75px;
+      }
+      .act{
+          border-bottom: 3px solid #f2f2f2;
+          order: 4;
+      }
+      .sinscrire{
+          order: 2;
+      }
       .bloc{
           border-radius: 0;
       }

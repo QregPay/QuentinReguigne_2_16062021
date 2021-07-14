@@ -15,7 +15,7 @@ body{
 }
 .flexbetween{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 .colorblue{
@@ -43,6 +43,9 @@ body{
 .navbar{
     height: 100px;
 }
+.logo{
+    width: 72%;
+}
 .sizenav{
     display: flex;
     justify-content: space-around;
@@ -57,7 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
+    width: 152px;
     height: 99px;
 }
 
@@ -461,6 +464,7 @@ body{
       .sizelien{
           width: 50%;
           height: 75px;
+          font-weight: 700;
       }
       .act{
           border-bottom: 3px solid #f2f2f2;

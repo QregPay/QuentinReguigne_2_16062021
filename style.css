@@ -197,14 +197,26 @@ body{
     flex-direction: column;
     justify-content: left;
     border-radius: 20px;
-    padding: 7px;
+    padding: 5px;
 }
 .marseille-hotel img{
     width: 100%;
-    height: 100px;
+    height: 127px;
     background-size: 100% 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+}
+.marseille-hotel-text{
+    margin: 7px;
+}
+.marseille-hotel-txt{
+    padding: 5px 10px;
+}
+.titre-hotel{
+    margin: 0 0 3px 0;
+}
+.para-hotel {
+    margin: 0 0 7px 0;
 }
 .stars{
     display: flex;
@@ -225,7 +237,7 @@ body{
 .populaires{
     display: flex;
     flex-direction: column;
-    padding: 0 40px 0 40px;
+    padding: 18px 40px 0 40px;
 }
 .populaire{
     display: flex;
@@ -266,7 +278,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0;
-    width: 35%;
+    width: 40%;
 }
 .populaire-img img{
     width: 100%;
@@ -280,7 +292,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 65%;
+    width: 60%;
+    margin: 10px 20px;
 }
 .populaire-txt .nom-hotel{
     margin: 0;
@@ -489,6 +502,12 @@ body{
           background-color: white;
           padding: 0 10px 0 10px;
       }
+      .marseille-hotel-txt{
+          margin-left: 10px;
+      }
+      .titre-hotel{
+          margin: 7px 0 7px 0;
+      }
       .populaires{
           padding: 0 10px 0 10px;
       }
@@ -499,7 +518,8 @@ body{
           width: 100%;
       }
       .marseille-hotel{
-          border: 3px solid #F2F2F2;
+          border: 3px solid white;
+          box-shadow: 5px 5px 5px 5px #F2F2F2; ;
       }
       .bloc-activites{
           display: flex;

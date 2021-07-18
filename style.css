@@ -115,6 +115,9 @@ body{
     cursor: pointer;
     border-radius: 0 15px 15px 0;
 }
+.searchbutton{
+    display: none;
+}
 .filters ul {
     display: inline-flex;
     flex-direction: row;
@@ -491,9 +494,30 @@ body{
       }
       .borduresearch{
           margin-bottom: 20px;
+          width: 100%;
+      }
+      .iconsize{
+          width: 15%;
       }
       .links{
           padding: 0 3px;
+      }
+      .recherch{
+          display: none;
+      }
+      .searchbar{
+          width: 70%;
+      }
+      .searchbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 15%;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 15px;
       }
       .filters ul li{
           margin-left: 7px;

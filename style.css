@@ -35,7 +35,6 @@ body{
 }
 .textbold{
     font-weight: bold;
-    font-weight: 800;
 }
 .bordurenone{
     border: none;
@@ -57,6 +56,9 @@ body{
     align-items: center;
     width: 45%;
 }
+.titledecoration{
+    text-decoration: none;
+}
 .decorationNone{
     text-decoration: none;
     color: black;
@@ -70,7 +72,7 @@ body{
 }
 
 .bordurenav{
-    border-top: 3px solid blue ;
+    border-top: 3px solid #0065FC ;
 }
 .bordurenavnone{
     border-top: 3px solid transparent;
@@ -132,7 +134,7 @@ body{
   .filters ul li {
     display: inline;
     margin-left: 25px;
-    font-weight: 700;
+    font-weight: 800;
     border: solid 2px #f2f2f2;
     padding: 0 20px 0 0;
     margin-top: 10px;

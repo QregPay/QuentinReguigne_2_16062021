@@ -46,6 +46,10 @@ body{
 .logo{
     width: 72%;
 }
+.logo img{
+    width: 120px;
+    height: 50px;
+}
 .sizenav{
     display: flex;
     justify-content: space-around;

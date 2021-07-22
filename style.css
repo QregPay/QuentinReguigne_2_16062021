@@ -1,6 +1,11 @@
 /*all*/
 body{
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    max-width: 1440px;
 }
 .flexcenter{
     display: flex;
@@ -13,7 +18,7 @@ body{
     align-items: center;
 
 }
-.flexbetween{
+.flexend{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -550,7 +555,7 @@ body{
       }
       .marseille-hotel{
           border: 3px solid white;
-          box-shadow: 5px 5px 5px 5px #F2F2F2; ;
+          box-shadow: 0px 0px 7px 9px #F2F2F2; ;
       }
       .bloc-activites{
           display: flex;

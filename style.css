@@ -473,7 +473,7 @@ body{
       .navbar{
           height: auto;
       }
-      .flexbetween{
+      .flexend{
           justify-content: center;
           box-sizing: border-box;
           flex-wrap: wrap;
